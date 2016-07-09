@@ -1,0 +1,36 @@
+
+
+Features:
+
+Authentication/Login
+
+
+
+
+1. Add unique indexes in the database. Like designation name per customer has to be unique.
+2. Define upload question format.
+
+
+
+
+What is a project?
+- a set of users participate in a project.
+- How can we restrict the users who participate in a project?
+- Same people can take part in different projects at different points in time. Questions may be different each time.
+- Same set of people should be able to participate in multiple projects simultaneously.
+- how can we restrict access to each project?
+
+Design
+- Add questions at the designation + project level.
+- provide a way to clone projects. So that adding projects becomes easier.
+- project can have following states - Active, Inactive, Closed
+- At the time of login user must provide details of customer and project.
+- 
+ 	
+
+Questions are attached to designations? Can the questions differ for the same designation in different project?
+
+Can multiple projects runa at the same time for the same customer?
+
+Is it possible to have different questions in different projects?
+

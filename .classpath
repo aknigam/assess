@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="src" path="dev"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.ivy2/cache/expedia/spring-ws/jars/spring-ws-2.1.1.RELEASE-all.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.ivy2/cache/expedia/spring-context-support/jars/spring-context-support-3.2.4.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.ivy2/cache/expedia/spring-web/jars/spring-web-3.2.4.RELEASE.jar" sourcepath="/Users/anigam/.m2/repository/org/springframework/spring-web/3.2.4.RELEASE/spring-web-3.2.4.RELEASE-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.ivy2/cache/expedia/spring-web-servlet/jars/spring-web-servlet-3.2.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.ivy2/cache/expedia/spring-webmvc/jars/spring-webmvc-3.2.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.ivy2/cache/expedia/spring-oxm/jars/spring-oxm-3.2.4.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.ivy2/cache/expedia/spring-context/jars/spring-context-3.2.4.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.ivy2/cache/expedia/spring-amqp/jars/spring-amqp-1.1.4.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.ivy2/cache/expedia/spring-jdbc/jars/spring-jdbc-3.2.4.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.ivy2/cache/expedia/spring-erlang/jars/spring-erlang-1.1.4.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.ivy2/cache/expedia/spring-rabbit/jars/spring-rabbit-1.1.4.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.ivy2/cache/expedia/spring-jms/jars/spring-jms-3.2.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.ivy2/cache/expedia/spring-beans/jars/spring-beans-3.2.4.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.ivy2/cache/expedia/spring-tx/jars/spring-tx-3.2.4.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.ivy2/cache/expedia/spring-aop/jars/spring-aop-3.2.4.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.ivy2/cache/expedia/spring-expression/jars/spring-expression-3.2.4.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.ivy2/cache/expedia/spring-core/jars/spring-core-3.2.4.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.ivy2/cache/expedia/commons-lang/jars/commons-lang-2.6.jar" sourcepath="/Users/anigam/.gradle/caches/modules-2/files-2.1/commons-lang/commons-lang/2.6/67313d715fbf0ea4fd0bdb69217fb77f807a8ce5/commons-lang-2.6-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.ivy2/cache/expedia/commons-collections/jars/commons-collections-3.2.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.ivy2/cache/expedia/commons-dbcp/jars/commons-dbcp-1.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.ivy2/cache/expedia/commons-pool/jars/commons-pool-1.5.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.ivy2/cache/expedia/commons-management/jars/commons-management-1.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.ivy2/cache/expedia/commons-jxpath/jars/commons-jxpath-1.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.ivy2/cache/expedia/commons-codec/jars/commons-codec-1.7.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.ivy2/cache/expedia/commons-logging/jars/commons-logging-1.1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.ivy2/cache/expedia/commons-io/jars/commons-io-2.4.jar" sourcepath="/Users/anigam/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.4/f2d8698c46d1167ff24b06a840a87d91a02db891/commons-io-2.4-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.ivy2/cache/expedia/commons-beanutils/jars/commons-beanutils-1.7.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.ivy2/cache/expedia/slf4j-api/jars/slf4j-api-1.7.5.jar" sourcepath="/Users/anigam/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.5/654135274d4c27132ea208a4ec07f344bdb83bcb/slf4j-api-1.7.5-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.ivy2/cache/expedia/slf4j-log4j12/jars/slf4j-log4j12-1.7.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.ivy2/cache/expedia/log4j/jars/log4j-1.2.17.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.ivy2/cache/expedia/jaxb-impl/jars/jaxb-impl-2.2.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.ivy2/cache/expedia/jaxb-api/jars/jaxb-api-2.2.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.ivy2/cache/expedia/jaxb-xjc/jars/jaxb-xjc-2.2.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.ivy2/cache/expedia/jackson-all/jars/jackson-all-1.9.11.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.ivy2/cache/expedia/snakeyaml/jars/snakeyaml-1.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.ivy2/cache/expedia/antlr/jars/antlr-3.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.ivy2/cache/expedia/antlr-runtime/jars/antlr-runtime-3.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.gradle/caches/modules-2/files-2.1/com.expedia.www.platform/platform-monitoring/0.9.12/abd95ce06594b477297da3157eb3a6814eaf7a37/platform-monitoring-0.9.12.jar" sourcepath="/Users/anigam/.gradle/caches/modules-2/files-2.1/com.expedia.www.platform/platform-monitoring/0.9.12/eba5b1c70ba9583accb3e972b5618ee6e56b2231/platform-monitoring-0.9.12-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.gradle/caches/modules-2/files-2.1/com.expedia.www.commons/commons-statsd/0.0.13/3d833355056a79a69ffe820ceb40ba26d8bafd5b/commons-statsd-0.0.13.jar" sourcepath="/Users/anigam/.gradle/caches/modules-2/files-2.1/com.expedia.www.commons/commons-statsd/0.0.13/a6dacf244babed30b5d401fc7e4208c91c085012/commons-statsd-0.0.13-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.ivy2/cache/expedia/commons-httpclient/jars/commons-httpclient-3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.ivy2/cache/expedia/commons-fileupload/jars/commons-fileupload-1.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.ivy2/cache/expedia/jtds/jars/jtds-1.2.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.ivy2/cache/expedia/jasypt-spring31/jars/jasypt-spring31-1.9.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.ivy2/cache/expedia/asm/jars/asm-3.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.ivy2/cache/expedia/aopalliance/jars/aopalliance-1.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.ivy2/cache/expedia/aspectjrt/jars/aspectjrt-1.6.11.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.ivy2/cache/expedia/aspectjweaver/jars/aspectjweaver-1.6.11.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.ivy2/cache/expedia/rabbitmq-client/jars/rabbitmq-client-3.0.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.ivy2/cache/expedia/camel-spring/jars/camel-spring-2.7.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.ivy2/cache/expedia/camel-spring-ws/jars/camel-spring-ws-2.7.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.ivy2/cache/expedia/camel-http/jars/camel-http-2.7.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.ivy2/cache/expedia/camel-jaxb/jars/camel-jaxb-2.7.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.ivy2/cache/expedia/camel-core/jars/camel-core-2.7.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.ivy2/cache/expedia/activemq-camel/jars/activemq-camel-5.5.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.ivy2/cache/expedia/camel-jms/jars/camel-jms-2.7.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.ivy2/cache/expedia/camel-jackson/jars/camel-jackson-2.7.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.ivy2/cache/expedia/auth-client/jars/auth-client-1.3.0.jar" sourcepath="/Users/anigam/.ivy2/cache/expedia/auth-client/sources/auth-client-1.3.0-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.ivy2/cache/expedia/wsdl4j/jars/wsdl4j-1.6.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.ivy2/cache/expedia/quartz/jars/quartz-2.1.6.jar" sourcepath="/Users/anigam/Downloads/jars/quartz-2.1 2.7/quartz/src"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.ivy2/cache/expedia/jsr311-api/jars/jsr311-api-1.1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.ivy2/cache/expedia/axis/jars/axis-1.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.ivy2/cache/expedia/commons-discovery/jars/commons-discovery-0.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.ivy2/cache/expedia/jaxrpc/jars/jaxrpc-1.1.02.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.ivy2/cache/expedia/mail/jars/mail-1.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.ivy2/cache/expedia/activation/jars/activation-1.1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.ivy2/cache/expedia/activemq/jars/activemq-5.3.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.ivy2/cache/expedia/cglib/jars/cglib-2.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.ivy2/cache/expedia/db2jcc/jars/db2jcc-9.7.0.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.ivy2/cache/expedia/freemarker/jars/freemarker-2.3.18.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.ivy2/cache/expedia/jasypt/jars/jasypt-1.9.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.ivy2/cache/expedia/guava/jars/guava-r09.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.ivy2/cache/expedia/gson/jars/gson-2.2.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.gradle/caches/modules-2/files-2.1/net.sourceforge.jexcelapi/jxl/2.6.12/7faf62e0697f7a88954622dfe8c8de33ed142ac7/jxl-2.6.12.jar" sourcepath="/Users/anigam/.gradle/caches/modules-2/files-2.1/net.sourceforge.jexcelapi/jxl/2.6.12/7e5ce7fe751bac58c5fe9eaf4600fd7f2d1bb112/jxl-2.6.12-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.ivy2/cache/expedia/com.expedia.e3.platform.multicache.client/jars/com.expedia.e3.platform.multicache.client-2.3.7.jar" sourcepath="/Users/anigam/.ivy2/cache/expedia/com.expedia.e3.platform.multicache.client/sources/com.expedia.e3.platform.multicache.client-2.3.7-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.ivy2/cache/expedia/com.expedia.cc.container.core/jars/com.expedia.cc.container.core-1.8.0.jar" sourcepath="/Users/anigam/.ivy2/cache/expedia/com.expedia.cc.container.core/sources/com.expedia.cc.container.core-1.8.0-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.ivy2/cache/expedia/spring-test/jars/spring-test-3.2.4.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.ivy2/cache/expedia/easymock/jars/easymock-3.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.ivy2/cache/expedia/easymockclassextension/jars/easymockclassextension-2.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.gradle/caches/modules-2/files-2.1/org.pegdown/pegdown/1.0.1/8ef5618679388bb6554696297dddc192c75edc6e/pegdown-1.0.1.jar" sourcepath="/Users/anigam/.gradle/caches/modules-2/files-2.1/org.pegdown/pegdown/1.0.1/9d2fe6d39a415abd42e724a1cfce7d68d44b930b/pegdown-1.0.1-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.ivy2/cache/expedia/scalatest/jars/scalatest_2.10-2.0.36.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.gradle/caches/modules-2/files-2.1/com.expedia.www.platform/platform-test/0.0.2/9d1607e6c4d2e393203a7fba6300eeb56694b01a/platform-test-0.0.2.jar" sourcepath="/Users/anigam/.gradle/caches/modules-2/files-2.1/com.expedia.www.platform/platform-test/0.0.2/4e49a25dc1690ca2d2843281330cec2fd7cbd64f/platform-test-0.0.2-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.ivy2/cache/expedia/camel-test/jars/camel-test-2.7.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.ivy2/cache/expedia/testng/jars/testng-6.5.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.5/6b262da268f8ad9eff941b25503a9198f0a0ac93/slf4j-api-1.7.5.jar" sourcepath="/Users/anigam/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.5/654135274d4c27132ea208a4ec07f344bdb83bcb/slf4j-api-1.7.5-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/1.3.9/40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf/jsr305-1.3.9.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/11.0.1/57b40a943725d43610c898ac0169adf1b2d55742/guava-11.0.1.jar" sourcepath="/Users/anigam/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/11.0.1/6101fb9881e05d563c8c971757edb19bfced011/guava-11.0.1-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/annotations/2.0.0/d8dff1d83a79f0c0609c360f02bcd2f2fc1f1369/annotations-2.0.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.gradle/caches/modules-2/files-2.1/com.netflix.servo/servo-core/0.4.44/894272c40a0737703fa5bc6d4fccf055984737ad/servo-core-0.4.44.jar" sourcepath="/Users/anigam/.gradle/caches/modules-2/files-2.1/com.netflix.servo/servo-core/0.4.44/c14cd8219a41949bff66a1931ed2445ade0eac16/servo-core-0.4.44-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.4/b1b6ea3b7e4aa4f492509a4952029cd8e48019ad/commons-io-2.4.jar" sourcepath="/Users/anigam/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.4/f2d8698c46d1167ff24b06a840a87d91a02db891/commons-io-2.4-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.gradle/caches/modules-2/files-2.1/commons-lang/commons-lang/2.6/ce1edb914c94ebc388f086c6827e8bdeec71ac2/commons-lang-2.6.jar" sourcepath="/Users/anigam/.gradle/caches/modules-2/files-2.1/commons-lang/commons-lang/2.6/67313d715fbf0ea4fd0bdb69217fb77f807a8ce5/commons-lang-2.6-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-reflect/2.10.0/10ec1256a6e875e886fec050edb0669166912d0d/scala-reflect-2.10.0.jar" sourcepath="/Users/anigam/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-reflect/2.10.0/fec87d40ef070ab31ed38253b939f7246cee15cd/scala-reflect-2.10.0-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-utils/1.4.1/ed3b64b2635244fdbe3f350115c3814d2c90096a/plexus-utils-1.4.1.jar" sourcepath="/Users/anigam/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-utils/1.4.1/f5e94e7238c67c372c671ee8c64212c4af8403dd/plexus-utils-1.4.1-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/2.0.6/fcbf6e26a6d26ecaa25c199b6f16bf168b2f28dc/maven-artifact-2.0.6.jar" sourcepath="/Users/anigam/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/2.0.6/75d0cc7c0f7b7f42550406cddec3c7efcd9bf9d6/maven-artifact-2.0.6-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.ivy2/cache/expedia/auth-core/jars/auth-core-1.3.0.jar" sourcepath="/Users/anigam/.ivy2/cache/expedia/auth-core/sources/auth-core-1.3.0-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.gradle/caches/modules-2/files-2.1/log4j/log4j/1.2.14/3b254c872b95141751f414e353a25c2ac261b51/log4j-1.2.14.jar" sourcepath="/Users/anigam/.gradle/caches/modules-2/files-2.1/log4j/log4j/1.2.14/6510b674f5e119177c13badf3ec5f77995ebdc05/log4j-1.2.14-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.gradle/caches/modules-2/files-2.1/org.parboiled/parboiled-core/1.0.0/d92cb683047290f9f11c1a02985a9d3e0fd11460/parboiled-core-1.0.0.jar" sourcepath="/Users/anigam/.gradle/caches/modules-2/files-2.1/org.parboiled/parboiled-core/1.0.0/64521f886dddad7f1fd765d157b2ed11574d6372/parboiled-core-1.0.0-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.gradle/caches/modules-2/files-2.1/asm/asm/3.3.1/1d5f20b4ea675e6fab6ab79f1cd60ec268ddc015/asm-3.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.gradle/caches/modules-2/files-2.1/asm/asm-tree/3.3.1/c9723d887e26c3049944e46312bb39e7ab1a2ed2/asm-tree-3.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.gradle/caches/modules-2/files-2.1/asm/asm-util/3.3.1/d891b52ddd9a06f0fa73c1f53c334145e23b6514/asm-util-3.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.gradle/caches/modules-2/files-2.1/asm/asm-analysis/3.3.1/6a42d88a6a2866c511a9246af325234279a50d12/asm-analysis-3.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/.gradle/caches/modules-2/files-2.1/org.parboiled/parboiled-java/1.0.0/77e3983f7f56584a241c73113d6dca1ddb65d56f/parboiled-java-1.0.0.jar" sourcepath="/Users/anigam/.gradle/caches/modules-2/files-2.1/org.parboiled/parboiled-java/1.0.0/dc4a399bb8c95053e75bb8df0ac2f5bb301f1d0c/parboiled-java-1.0.0-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/Perforce/anigam_DELC02JR0D3DKQ1_7104/e3/components/partnerlty/products/Sterling/trunk/service/lib/commons-csv-1.0-20130409.212105-192.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/Perforce/anigam_DELC02JR0D3DKQ1_7104/e3/components/partnerlty/products/Sterling/trunk/service/lib/jdmkrt.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/anigam/Perforce/anigam_DELC02JR0D3DKQ1_7104/e3/components/partnerlty/products/Sterling/trunk/service/lib/jdmktk.jar"/>
+	<classpathentry kind="lib" path="lib/antlr-2.7.6.jar"/>
+	<classpathentry kind="lib" path="lib/aopalliance-1.0.jar"/>
+	<classpathentry kind="lib" path="lib/cglib-nodep-2.2.jar"/>
+	<classpathentry kind="lib" path="lib/commons-collections-3.1.jar"/>
+	<classpathentry kind="lib" path="lib/commons-dbcp-1.4.jar"/>
+	<classpathentry kind="lib" path="lib/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="lib/commons-logging-adapters-1.1.1.jar"/>
+	<classpathentry kind="lib" path="lib/commons-logging-api-1.1.1.jar"/>
+	<classpathentry kind="lib" path="lib/commons-pool-1.5.7.jar"/>
+	<classpathentry kind="lib" path="lib/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="lib/hibernate-jpa-2.0-api-1.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="lib/hibernate3.jar"/>
+	<classpathentry kind="lib" path="lib/isc-jakarta-oro-2.0.6.jar"/>
+	<classpathentry kind="lib" path="lib/jackson-all-1.9.0.jar"/>
+	<classpathentry kind="lib" path="lib/javassist-3.12.0.GA.jar"/>
+	<classpathentry kind="lib" path="lib/jdmkrt.jar"/>
+	<classpathentry kind="lib" path="lib/jdmktk.jar"/>
+	<classpathentry kind="lib" path="lib/jmxremote_optional.jar"/>
+	<classpathentry kind="lib" path="lib/jta-1.1.jar"/>
+	<classpathentry kind="lib" path="lib/junit-4.11.jar"/>
+	<classpathentry kind="lib" path="lib/log4j-1.2.16.jar"/>
+	<classpathentry kind="lib" path="lib/mysql-connector-java-5.1.18-bin.jar"/>
+	<classpathentry kind="lib" path="lib/org.springframework.aop-3.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/org.springframework.asm-3.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/org.springframework.aspects-3.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/org.springframework.beans-3.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/org.springframework.context-3.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/org.springframework.context.support-3.1.0.RELEASE.jar" sourcepath="/Users/anigam/.m2/repository/org/springframework/spring-context-support/3.1.0.RELEASE/spring-context-support-3.1.0.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="lib/org.springframework.core-3.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/org.springframework.expression-3.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/org.springframework.instrument-3.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/org.springframework.instrument.tomcat-3.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/org.springframework.jdbc-3.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/org.springframework.jms-3.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/org.springframework.orm-3.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/org.springframework.oxm-3.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/org.springframework.test-3.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/org.springframework.transaction-3.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/org.springframework.web-3.1.0.RELEASE.jar" sourcepath="/Users/anigam/.m2/repository/org/springframework/spring-web/3.1.0.RELEASE/spring-web-3.1.0.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="lib/org.springframework.web.servlet-3.1.0.RELEASE.jar" sourcepath="/Users/anigam/.m2/repository/org/springframework/spring-webmvc/3.1.0.RELEASE/spring-webmvc-3.1.0.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="lib/org.springframework.web.struts-3.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-aop-3.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/anigam/Downloads/jars/freemarker-2.3.20/freemarker.jar" sourcepath="/Users/anigam/.m2/repository/org/freemarker/freemarker/2.3.20/freemarker-2.3.20-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/anigam/Downloads/jars/spring-webmvc-3.2.9.RELEASE.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/JETTY_LIB"/>
+	<classpathentry kind="lib" path="lib/commons-csv-1.0-20130409.212105-192.jar"/>
+	<classpathentry kind="lib" path="lib/commons-fileupload-1.2.jar"/>
+	<classpathentry kind="lib" path="lib/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="/Users/anigam/Downloads/jars/mysql-connector-java-5.1.31/mysql-connector-java-5.1.31-bin.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/JETTY"/>
+	<classpathentry kind="lib" path="lib/org.springframework.web.portlet-3.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/gson-2.2.2.jar"/>
+	<classpathentry kind="lib" path="/Users/anigam/Downloads/jars/javax.mail.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

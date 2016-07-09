@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:aop="http://www.springframework.org/schema/aop" xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+ http://www.springframework.org/schema/beans/spring-beans.xsd
+ http://www.springframework.org/schema/aop
+ http://www.springframework.org/schema/aop/spring-aop.xsd
+ http://www.springframework.org/schema/tx
+ http://www.springframework.org/schema/tx/spring-tx.xsd
+ http://www.springframework.org/schema/context
+ http://www.springframework.org/schema/context/spring-context.xsd">
+ 
+ 
+ 
+ <!--
+ 
+com.assess.database.Assess/driver=com.mysql.jdbc.Driver
+com.assess.database.Assess/url=jdbc:mysql://localhost:3306/assess
+com.assess.database.Assess/username=root
+com.assess.database.Assess/password=root	
+com.assess.database/initialSize=10
+com.assess.database/maxActive=50
+com.assess.database/maxWait=1000
+  
+ -->
+  <bean id="assessdataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
+	<property name="driverClassName" value="com.mysql.jdbc.Driver" />
+	<property name="url" value="jdbc:mysql://localhost:3306/assess_new" />
+	<property name="username" value="root" />
+	<property name="password" value="root" />	
+	<!-- <property name="initialSize" value="${com.assess.database/initialSize:10}" />
+	<property name="maxActive" value="${com.assess.database/maxActive:50}" />
+	<property name="maxWait" value="${com.assess.database/maxWait:1000}" /> -->
+  </bean>
+
+  <bean id="txManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+    <property name="dataSource" ref="assessdataSource"/>
+  </bean>
+
+
+  <bean id="assessJdbcTemplate"
+     class="org.springframework.jdbc.core.JdbcTemplate">
+     <constructor-arg ref="assessdataSource" />
+  </bean>
+  
+  <tx:annotation-driven transaction-manager="txManager"/>
+	
+</beans>

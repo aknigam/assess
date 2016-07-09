@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns:context="http://www.springframework.org/schema/context"
+ xmlns:util="http://www.springframework.org/schema/util"
+ xmlns:mvc="http://www.springframework.org/schema/mvc"
+ xmlns:p="http://www.springframework.org/schema/p"
+ xsi:schemaLocation="http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.0.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+   <!-- <bean id="messageSource"
+         class="org.springframework.context.support.ResourceBundleMessageSource">
+     <property name="basenames">
+       <list>
+         <value>ui</value>
+       </list>
+     </property>
+   </bean> -->
+
+   <bean id="multipartResolver" class=
+	   "org.springframework.web.multipart.commons.CommonsMultipartResolver"
+     p:maxUploadSize="500000" />
+   
+   <context:component-scan base-package="com.assess.controllor" >
+   		<context:include-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
+   </context:component-scan>
+
+   <mvc:annotation-driven/>
+
+   <mvc:resources mapping="/resources/**" location="/resources/" />
+   
+   <mvc:interceptors>
+   		<!-- <bean id="requestInterceptor" class="com.assess.web.interceptor.RequestInterceptor"/> -->
+   		<mvc:interceptor>
+			<mvc:mapping path="/UserFeedback/*" />
+			<bean id="requestInterceptor" class="com.assess.web.interceptor.RequestInterceptor"/>
+		</mvc:interceptor>
+   		
+   </mvc:interceptors>
+
+
+    <bean id="freemarkerConfig" class="org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer">
+      <property name="templateLoaderPath" value="/WEB-INF/freemarker/"/>
+    </bean>
+
+    <bean id="ftlViewResolver" class="org.springframework.web.servlet.view.freemarker.FreeMarkerViewResolver">
+      <property name="cache" value="false"/>
+      <property name="prefix" value=""/>
+      <property name="suffix" value=".ftl"/>
+    </bean>
+    
+    <bean id="DesignationUploadProcessor" class="com.assess.service.processor.impl.DesignationUploadProcessor"/>
+    <bean id="UserUploadProcessor" class="com.assess.service.processor.impl.UserUploadProcessor"/>
+    <bean id="FeedbackReviewerUploadProcessor" class="com.assess.service.processor.impl.FeedbackReviewerUploadProcessor"/>
+    <bean id="QuestionUploadProcessor" class="com.assess.service.processor.impl.QuestionUploadProcessor"/>
+    <bean id="AssessmentAreaUploadProcessor" class="com.assess.service.processor.impl.AssessmentAreaUploadProcessor"/>
+    <bean id="AssessmentAreaHierarchyUploadProcessor" class="com.assess.service.processor.impl.AssessmentAreaHierarchyUploadProcessor"/>
+    <bean id="RatingScaleUploadProcessor" class="com.assess.service.processor.impl.RatingScaleUploadProcessor"/>
+    
+	
+	<bean id="UploadWSUtil" class="com.assess.controllor.csv.UploadWSUtil" scope="singleton">
+		<property name="uploadProcessors">
+          <map>
+              <entry key="DESIGNATION" value-ref="DesignationUploadProcessor"/>
+              <entry key="USERS" value-ref="UserUploadProcessor"/>
+              <entry key="REVIEWER" value-ref="FeedbackReviewerUploadProcessor"/>
+              <entry key="QUESTION" value-ref="QuestionUploadProcessor"/>
+              <entry key="ASSESSMENT_AREA" value-ref="AssessmentAreaUploadProcessor"/>
+              <entry key="ASSESSMENT_AREA_HIERARCHY" value-ref="AssessmentAreaHierarchyUploadProcessor"/>
+              <entry key="RATING_SCALE" value-ref="RatingScaleUploadProcessor"/>
+              
+              
+          </map>
+      	</property>
+	</bean>
+	
+	<!--  
+	<bean id="handlerMapping" class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping">
+		<property name="interceptors">
+			<list>
+				<ref bean="requestInterceptor" />
+			</list>
+		</property>
+	</bean>
+	
+	<bean id="requestInterceptor" class="com.assess.web.interceptor.RequestInterceptor">
+	</bean>
+	
+	 -->
+	
+</beans>
